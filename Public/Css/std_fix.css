@@ -1,0 +1,68 @@
+*{
+    font-family:   "Microsoft Yahei","微软雅黑","新宋体","宋体";
+}
+body{
+    font-family:   "Microsoft Yahei","微软雅黑","新宋体","宋体";
+}
+
+select{
+
+    font-family:   "Microsoft Yahei","微软雅黑","新宋体","宋体";    
+
+}
+
+input{
+    font-family:   "Microsoft Yahei","微软雅黑","新宋体","宋体";    
+}
+*{
+    font-family: "Microsoft Yahei","微软雅黑","新宋体","宋体";    
+}
+textarea{
+    font-family: "Microsoft Yahei","微软雅黑","新宋体","宋体";
+}
+
+body, td, th {
+
+    font-family:   "Microsoft Yahei","微软雅黑","新宋体","宋体";
+
+}
+div{
+    font-family:   "Microsoft Yahei","微软雅黑","新宋体","宋体";  
+}     
+
+p{
+    font-family:   "Microsoft Yahei","微软雅黑","新宋体","宋体";
+}
+
+
+.list-div th {
+    background: #BBDDE5;
+}      
+
+.freshing {}
+.freshing table{
+    border-collapse:collapse;
+}
+.freshing td{
+    height:30px;
+    border:1px solid #2A8FBD;
+    empty-cells: show; 
+}
+
+
+.freshing th{
+    height:35px;
+    text-align:center;
+    background-color:#a0c6e5;; 
+    border:1px solid #2A8FBD;
+}
+
+
+.freshing tbody tr.odd{background:#f5f8fa;}
+.freshing tbody tr:hover{background:#e5ebee;}
+
+
+
+.list.td{
+    text-align: center;
+}

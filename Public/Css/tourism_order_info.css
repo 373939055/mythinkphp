@@ -1,0 +1,65 @@
+  .re_class{
+    border:1px solid #aaa;
+    position: relative;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    height:auto!important;
+    min-height: 210px;
+    background: #fff;
+  }
+  .re_class_extra{
+    border:1px solid #ccc;
+    position: relative;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    background: #fff;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+
+  .re_class .nm{
+    display: block;
+    margin: 10px 10px 10px 10px;
+    clear: both;
+    color: gray;
+  }
+  
+  .re_class .re_attribute{
+    width: 350px;
+    float: left;
+    height: 25px;
+    margin: 1px; 
+    display: block;
+  }
+  .re_class .re_attribute .span1{
+    width: 150px;
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    text-align: right;
+  }
+  .re_class .re_attribute .span2{
+    width: 180px;
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    color:gray;
+  }
+  .edit_btn_style{
+    position:absolute;
+    right:10px;
+    top:5px;
+    color:gray;
+    cursor:pointer;
+  }
+  .del_btn_style{
+    position:absolute;
+    right:39px;
+    top:5px;
+    color:#FF8247;
+    cursor:pointer;
+  }
