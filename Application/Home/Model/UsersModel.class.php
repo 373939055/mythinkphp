@@ -39,7 +39,7 @@ class UsersModel extends Model{
         $user_name = trim($user_name); // 去掉空格
         $user_name != '' && $where['user_name'] = ['like', '%' . $user_name .'%'];
         $result['total'] = $this->where($where)->count();
-        $result['rows'] = $this->where($where)->page("$page,$pagesize")->select();
+        $result['rows'] = $this->field('*, FROM_UNIXTIME(reg_time) AS reg_time_fmt')->where($where)->page("$page,$pagesize")->select();
         return $result;
     }
 }

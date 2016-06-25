@@ -6,6 +6,9 @@
     <link href="__PUBLIC__/Css/main.css" rel="stylesheet" type="text/css" />
     <link href="__PUBLIC__/Css/ajax_pager.css" rel="stylesheet" type="text/css" />
     <script src="/Public/Js/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="__PUBLIC__/Js/bsgrid/builds/merged/bsgrid.all.min.css"/>
+    <script type="text/javascript" src="__PUBLIC__/Js/bsgrid/builds/js/lang/grid.zh-CN.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/bsgrid/builds/merged/bsgrid.all.min.js"></script>
     <title>Title</title>
 </head>
 <body>
@@ -29,7 +32,8 @@
     <tr>
         <td align="center">{$vo.user_name}</td>
         <td align="center">{$vo.real_name}</td>
-        <td align="center">{$vo.reg_time}</td>
+        <!--<td align="center">{$vo.reg_time|date='Y-m-d H:i:s',###}</td>-->
+        <td align="center">{$vo.reg_time_fmt}</td>
         <td align="center">{$vo.mobile_phone}</td>
         <td align="center">{$vo.email}</td>
         <td align="center"><if condition="$vo.is_validated eq 1 "> 正常<else /> 禁用</if></td>
